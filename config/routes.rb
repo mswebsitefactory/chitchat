@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get '/explore' => 'pages#explore'
   
-  get '/profile' => 'pages#profile'
+  get '/user/:id' => 'pages#profile'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
